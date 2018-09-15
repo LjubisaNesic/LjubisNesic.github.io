@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: cursive;
+	color: blue;
+	text-align: center;
+}
+
+nav {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	height: 150px;
+	border-bottom: yellow solid 5px;
+}
+
+nav header {
+	background-color: blue;
+	list-style: none;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	
+}
+
+object {
+	background-color: yellow;
+	float: left;
+
+}
+
+h1 {
+	font-size: 24px;
+	margin: 30px;
+}
+
+h2 {
+	margin: 15px;
+}
+
+.granicni {
+	clear: both;
+	height: 5px;
+	background-color: yellow;
+}
+
+#oMeni {
+	float: left;
+	margin: 30px;
+	padding: 30px;
+	border-bottom: blue solid 5px;
+	border-left: yellow solid 5px;
+	width: 40%;
+
+}
+
+#oMeni h2 {
+	margin-top: -15px;
+	margin-bottom: 35px;
+}
+
+#oMeniTrenutno {
+	float: left;
+	margin: 30px;
+	padding: 30px;
+	width: 300px;
+	border-top: blue solid 5px;
+	border-right: yellow solid 5px;
+}
+
+.granicni {
+	clear: both;
+	height: 5px;
+	background-color: yellow;
+}
+
+#obrazovanje {
+	width: 60%;
+	float: right;
+	border-top: blue solid 5px;
+	border-left: yellow solid 5px;
+	padding: 30px;
+	margin-bottom: 60px;
+	margin-left: 20px;
+}
+
+#projekti {
+	margin-top: -50px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px auto;
+	border-right: blue solid 5px;
+	border-top: yellow solid 5px;
+	background-color: white;
+
+}
+
+#projekti ol li {
+	list-style-type: none;
+}
+
+.link {
+	text-decoration: none;
+	font-style: italic;
+	color: orange;
+	padding: 5px;
+}
+
+.link:hover {
+	color: red;
+}
+
+ol li{
+	text-decoration: none;
+}
+
+footer {
+	margin-right: 15px;
+	text-align: right;
+
+}
